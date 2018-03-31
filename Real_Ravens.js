@@ -13,6 +13,7 @@ var ecStatic = require('ecstatic');  //provides convenient static file server se
 var WebSocketServer = require('ws').Server;
 //var id = 1;
 var sentId = 0;
+var port = process.env.PORT || 3000;
 
 const SECRET_CODE = "12UYIUmkjkjhlj";
 const MASTER_ID = 0;
@@ -65,6 +66,6 @@ function broadcast(msg) {
   })
 }
 
-server.listen(process.env.PORT || 3000); //listen on port 3000
+server.listen(port); //listen on port 3000
 console.log('Server Running at port 3000  CNTL-C to quit');
 console.log('To Test: open several browsers to: http://localhost:3000/index.html')
