@@ -1,0 +1,26 @@
+{
+  "name": "Phone_Controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Real_Ravens.js",
+  "scripts": {
+    "start": "node Real_Ravens.js"
+   },
+  "dependencies": {
+    "ecstatic": "^3.2.0",
+    "save": "^2.3.2",
+    "ws": "^5.1.0"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "repository": {
+    "type": "git",
+	"url": "https://github.com/Temitayooyelowo/CUHacking.git"
+  },
+  "keywords":[
+	"node",
+	"heroku",
+	"express"
+  ]
+}

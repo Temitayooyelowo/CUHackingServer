@@ -1,0 +1,7 @@
+{
+	"name": "Phone_Controller",
+	"description": " A phone controller app",
+	"repository": "https://github.com/Temitayooyelowo/CUHacking",
+	"keywords": ["node", "express", "static"],
+	"image": "heroku/nodejs"
+}

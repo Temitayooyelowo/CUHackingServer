@@ -1,1 +1,2 @@
-# CUHackingServer
+# CUHacking
+CUHacking Project
