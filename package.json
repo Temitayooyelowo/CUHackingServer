@@ -5,7 +5,7 @@
   "main": "Real_Ravens.js",
   "scripts": {
     "start": "node Real_Ravens.js"
-   },
+  },
   "dependencies": {
     "ecstatic": "^3.2.0",
     "save": "^2.3.2",
@@ -16,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-	"url": "https://github.com/Temitayooyelowo/CUHackingServer.git"
+    "url": "https://github.com/Temitayooyelowo/CUHackingServer.git"
   },
-  "keywords":[
-	"node",
-	"heroku",
-	"express"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
   ]
 }

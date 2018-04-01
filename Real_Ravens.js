@@ -10,10 +10,12 @@ Then open several browsers to: http://localhost:3000/index.html
 
 var http = require('http'); //needed to receive http requests
 var ecStatic = require('ecstatic');  //provides convenient static file server service
+var port = process.env.PORT || 3000;
+
 var WebSocketServer = require('ws').Server;
 //var id = 1;
 var sentId = 0;
-var port = process.env.PORT || 3000;
+
 
 const SECRET_CODE = "12UYIUmkjkjhlj";
 const MASTER_ID = 0;
@@ -66,6 +68,5 @@ function broadcast(msg) {
   })
 }
 
-server.listen(port); //listen on port 3000
-console.log('Server Running at port' + port + '  CNTL-C to quit');
-console.log('To Test: open several browsers to: http://localhost:'+port+'3000/index.html')
+server.listen(port); //listen on port 
+
