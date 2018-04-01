@@ -67,5 +67,5 @@ function broadcast(msg) {
 }
 
 server.listen(port); //listen on port 3000
-console.log('Server Running at port 3000  CNTL-C to quit');
-console.log('To Test: open several browsers to: http://localhost:3000/index.html')
+console.log('Server Running at port' + port + '  CNTL-C to quit');
+console.log('To Test: open several browsers to: http://localhost:'+port+'3000/index.html')
